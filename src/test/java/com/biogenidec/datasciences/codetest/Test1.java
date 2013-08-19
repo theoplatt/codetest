@@ -23,11 +23,11 @@ public class Test1 {
 		String computedoutput = "";
 
 		/*
-		 * Your code - begin
+		 * Your code - begin **********************************************
 		 */
 
 		/*
-		 * Your code - end
+		 * Your code - end ************************************************
 		 */
 
 		log.debug("Input:           " + input);
