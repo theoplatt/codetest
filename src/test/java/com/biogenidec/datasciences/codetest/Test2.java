@@ -47,7 +47,7 @@ public class Test2 {
 		String input2 = "ABCD";
 		String desiredoutput2 = "ABCD ABDC ACBD ACDB ADBC ADCB BACD BADC BCAD BCDA BDAC BDCA CABD CADB CBAD CBDA CDAB CDBA DABC DACB DBAC DBCA DCAB DCBA";
 		
-		String computedoutput2 = permutation.calculate(input1);
+		String computedoutput2 = permutation.calculate(input2);
 
 		log.debug("Input 2:           " + input2);
 		log.debug("Desired output 2:  " + desiredoutput2);
