@@ -8,8 +8,8 @@ package com.biogenidec.datasciences.codetest;
  */
 public class PermutationMock implements Permutation {
 
-	public String calculate(String input) {
-		return input;
-	}
+    public String calculate(String input) {
+        return input;
+    }
 
 }

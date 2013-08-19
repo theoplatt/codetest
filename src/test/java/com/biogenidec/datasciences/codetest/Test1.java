@@ -8,35 +8,34 @@ import org.junit.Test;
 
 public class Test1 {
 
-	private static final Log log = LogFactory.getLog(Test1.class);
+    private static final Log log = LogFactory.getLog(Test1.class);
 
-	/**
-	 * Sort the input string and put the results in the computedoutput string.
-	 * The computedoutput string should match the desiredoutput string.
-	 */
-	@Test
-	public void test() {
+    /**
+     * Sort the input string and put the results in the computedoutput string.
+     * The computedoutput string should match the desiredoutput string.
+     */
+    @Test
+    public void test() {
 
-		String input = "MNO DEF ABC GHI JKL";
-		String desiredoutput = "ABC DEF GHI JKL MNO";
+        String input = "MNO DEF ABC GHI JKL";
+        String desiredoutput = "ABC DEF GHI JKL MNO";
 
-		String computedoutput = "";
+        String computedoutput = "";
 
-		/*
-		 * Your code - begin **********************************************
-		 */
+        /*
+         * Your code - begin **********************************************
+         */
 
-		/*
-		 * Your code - end ************************************************
-		 */
+        /*
+         * Your code - end ************************************************
+         */
 
-		log.debug("Input:           " + input);
-		log.debug("Desired output:  " + desiredoutput);
-		log.debug("Computed output: " + computedoutput);
+        log.debug("Input:           " + input);
+        log.debug("Desired output:  " + desiredoutput);
+        log.debug("Computed output: " + computedoutput);
 
-		assertEquals("Computed output is not correct", desiredoutput,
-				computedoutput);
+        assertEquals("Computed output is not correct", desiredoutput, computedoutput);
 
-	}
+    }
 
 }
